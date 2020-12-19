@@ -1,0 +1,15 @@
+apiVersion: v1
+name: infinispan-operator-prerequisites
+description: | 
+  The Infinispan Operator provides operational intelligence and reduces management complexity for deploying Infinispan on Kubernetes and Red Hat OpenShift. 
+  Infinispan Operator lets you create, configure, and manage Infinispan clusters.
+  This chart is a simple alternative to operatorhub deployment.
+version: 1.0.0
+keywords:
+  - infinispan 
+  - chart 
+  - cache 
+home: https://github.com/aerobase/infinispan-helm
+sources:
+  - https://github.com/aerobase/infinispan-helm
+  - https://infinispan.org/infinispan-operator/master/operator.html
