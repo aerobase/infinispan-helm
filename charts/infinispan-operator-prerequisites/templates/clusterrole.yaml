@@ -24,9 +24,9 @@ rules:
   - get
   - list
 - apiGroups:
-    - storage.k8s.io
+  - storage.k8s.io
   resources:
-    - storageclasses
+  - storageclasses
   verbs:
-    - get
-    - watch
+  - get
+  - watch
